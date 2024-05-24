@@ -81,7 +81,7 @@ def workflow():
 
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
 
-    with open("result_" + timestamp + ".jtml", 'w') as f:
+    with open("result_" + timestamp + ".html", 'w') as f:
         f.write(result['output'])
         f.write("\n")
 
